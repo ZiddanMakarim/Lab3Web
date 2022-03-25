@@ -241,3 +241,48 @@ Disini saya sedikit menambahkan file internal CSS
 ## Pertanyaan dan Tugas
 
 ## 1.) Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection!
+
+## Dropdown
+adalah sebuah fungsi yang memerintahkan untuk memilih dengan tag select ketika di klik terdapat option pilihan, contohnya sbb.
+
+![dropdown](img/dropdown.png)
+```html
+ <p>
+     <!-- Dropdown Menu -->
+     <h2>Dropdown Menu</h2>
+     <label>Pilih</label>
+    <select name="Pilih" id="Pilih">
+        <option value="Pilih Warna">--Pilih Warna--</option>
+        <option value="Merah">Merah</option>
+        <option value="Jingga">Jingga</option>
+        <option value="Kuning">Kuning</option>
+        <option value="Hijau">Hijau</option>
+        <option value="Biru">Biru</option>
+        <option value="Nila">Nila</option>
+        <option value="Ungu">Ungu</option>
+    </select> 
+</p>
+```
+
+## Listbox Multiple Selection
+adalah selection yang lebih dari satu pilihan artinya bisa memilih dari satu pilihan, contohnya sbb.
+
+![listbox](img/listbox.png)
+```html
+<p>
+    <!-- ListBox -->
+    <h2>ListBox</h2>
+    <label>Pilih</label>
+    <select name="Pilih" id="Pilih" multiple size="8">
+    <option value="Pilih Warna">--Pilih Warna--</option>
+    <option value="Merah">Merah</option>
+    <option value="Jingga">Jingga</option>
+    <option value="Kuning">Kuning</option>
+    <option value="Hijau">Hijau</option>
+    <option value="Biru">Biru</option>
+    <option value="Nila">Nila</option>
+    <option value="Ungu">Ungu</option>
+    </select> 
+</p>
+```
+# Terima Kasih
